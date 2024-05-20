@@ -1,6 +1,6 @@
 # Video Dubbing Pipeline
 
-This project provides a comprehensive pipeline for video dubbing. It includes downloading a video, extracting audio, transcribing and translating the audio, generating new audio using text-to-speech, and replacing the original audio in the video with the generated audio.
+This project provides a comprehensive pipeline for video dubbing ru-to-eng. It includes downloading a video, extracting audio, transcribing and translating the audio, generating new audio using text-to-speech, and replacing the original audio in the video with the generated audio.
 
 ## Table of Contents
 
