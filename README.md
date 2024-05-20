@@ -8,6 +8,7 @@ This project provides a comprehensive pipeline for video dubbing. It includes do
 - [Usage](#usage)
 - [Classes and Functions](#classes-and-functions)
 - [Example](#example)
+- [Demo](#demo)
 
 ## Installation
 
@@ -134,4 +135,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+### Demo
+
+[Video](https://github.com/vlibar/video-dubbing-pipeline/assets/55095368/54782cc0-8e15-4fbc-9488-1e71d1dd7c63)
+
+
+
 
