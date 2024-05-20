@@ -130,7 +130,7 @@ def main():
     transcription_model_size='large'
 
     dubbing_pipeline = DubbingPipeline(video_url, video_path, audio_output_path, new_audio_path, output_video_path, checkpoints_dir, translation_model, tts_model_name, transcription_model_size)
-    final_audio = dubbing_pipeline.run_pipeline()
+    final_audio_path = dubbing_pipeline.run_pipeline()
 
 if __name__ == "__main__":
     main()
