@@ -26,18 +26,30 @@ This project provides a comprehensive pipeline for video dubbing. It includes do
     pip install -r requirements.txt
     ```
 
+3. You may download up-to-date OpenVoice checkpoints by running the following commands:
+    ```bash
+    wget https://myshell-public-repo-hosting.s3.amazonaws.com/openvoice/checkpoints_v2_0417.zip
+    unzip checkpoints_v2_0417.zip
+    ```
+
+4. In case of some troubleshooting, the following command may help:
+    ```bash
+    apt install libcublas11
+    ```
+
 ## Usage
 
 ### Running the Pipeline
 
 1. Ensure you have all the necessary files in the project directory:
-    - `video_download.py`
-    - `audio_extractor.py`
-    - `video_replacer.py`
-    - `transcription_model.py`
-    - `text_translator.py`
-    - `audio_processor_utils.py`
-    - `audio_generation.py`
+    - `video_packages/video_download.py`
+    - `video_packages/video_replacer.py`
+    - `audio_packages/audio_extractor.py`
+    - `audio_packages/audio_processor_utils.py`
+    - `audio_packages/audio_generation.py`
+    - `text_packages/transcription_model.py`
+    - `text_packages/text_translator.py`
+    
     - `dubbing_pipeline.py`
     - `main.py`
 
