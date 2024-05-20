@@ -8,8 +8,6 @@ This project provides a comprehensive pipeline for video dubbing. It includes do
 - [Usage](#usage)
 - [Classes and Functions](#classes-and-functions)
 - [Example](#example)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -119,7 +117,6 @@ This project provides a comprehensive pipeline for video dubbing. It includes do
 
 ```python
 from dubbing_pipeline import DubbingPipeline
-from IPython.display import display
 
 def main():
     video_url = 'https://drive.google.com/uc?id=1BW1xhv7GGmu5TzfFmBBvog-b9DRDee3Y'
