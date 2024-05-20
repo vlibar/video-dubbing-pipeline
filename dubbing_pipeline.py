@@ -50,4 +50,4 @@ class DubbingPipeline:
         synchronized_audio.export("synchronized_audio.wav", format="wav")
 
         self.video_replacer.replace_audio_in_video("synchronized_audio.wav", self.output_video_path)
-        return Audio('synchronized_audio.wav')
+        return 'synchronized_audio.wav'
