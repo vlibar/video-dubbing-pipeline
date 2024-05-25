@@ -8,7 +8,12 @@ class TextSegmenter:
         self.segmented_text = []
 
     def _prepare_translated_words(self):
-        return [sentence[:-1].lower().split() if sentence[-1] == '.' else sentence.lower().split() for sentence in self.translated_list]
+        translated_words = [
+            sentence[:-1].lower().replace(' - ', '-').split() if sentence[-1] == '.' else
+            sentence.lower().replace(' - ', '-').split()
+            for sentence in self.translated_list
+        ]
+        return translated_words
 
     def find_best_match(self, word, segments, used_indices):
         best_match_index = -1
